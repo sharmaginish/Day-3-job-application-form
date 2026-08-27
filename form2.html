@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 2</title>
+</head>
+<body>
+    <form>
+        <h2>TechNova Solutions Pvt. Ltd.</h2>
+        <p>Welcome to TechNova Solutions!. This company is dedicated to providing innovative technology solutions to its clients. </p>
+<fieldset>
+    <legend><h2>Personal Information</h2></legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" placeholder="Enter your Full Name" required><br><br>
+
+        <label for="fname">Father's Name:</label>
+        <input type="text" id="fname" placeholder="Enter your Father's Name" required><br><br>
+
+        <label for="mname">Mother's Name:</label>
+        <input type="text" id="mname" placeholder="Enter your Mother's Name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" placeholder="Enter your Email Address" required><br><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" placeholder="Enter your Mobile Number" required min="10" max="10"><br><br>
+
+        <label for="amobile">Alternate Mobile Number:</label>
+        <input type="tel" id="amobile" placeholder="Enter your Alternate Mobile Number" min="10" max="10"><br><br>
+
+        <label for="DOB">Date of Birth:</label>
+        <input type="date" id="DOB" placeholder="Enter your Date of Birth" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter your Age" required min="18"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label for="Nationality">Nationality:</label>
+        <input type="text" id="Nationality" placeholder="Enter your Nationality" required><br><br>
+
+        <label for="aadhar">Aadhar Number:</label>
+        <input type="number" id="aadhar" placeholder="Enter your Aadhar Number" min="12" max="12" required><br><br>
+
+        <label for="pan">PAN Number:</label>
+        <input type="text" id="pan" placeholder="Enter your PAN Number" min="10" max="10" required><br><br>
+
+        <label for="passport">Passport Number:</label>
+        <input type="text" id="passport" placeholder="Enter your Passports Number" min="8" max="8" required><br><br>
+
+        <label for="blood">Blood Group:</label>
+        <select id="blood" required>
+            <option value="">Select your Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select></fieldset><br><br>
+
+        <fieldset>
+            <legend><h2>Address Details</h2></legend>
+            <label for="current">Current Address:</label>
+            <textarea id="current" placeholder="Enter your Current Address" rows="5" cols="40" required></textarea><br><br>
+
+        <label for="city">Enter your City:</label>
+        <input type="text" id="city" placeholder="Enter your City" required><br><br>
+
+        <label for="state">Select your State:</label>
+        <select id="state" required>
+            <option value="">Select your State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        </select><br><br>
+            <label for="pin" >Enter your Pin Code:</label>
+            <input type="number" id="pin" placeholder="Enter your Pin Code" required min="100000" max="999999"><br><br>
+
+            <label for="country">Select your Country:</label>
+            <select id="country" required>
+                <option value="">Select your Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <!-- Add more countries as needed -->
+            </select><br><br>
+
+        <label for="permanent">Permanent Address:</label>
+        <textarea id="permanent" placeholder="Enter your Permanent Address" rows="5" cols="40" required></textarea><br><br>
+
+        <label for="city">Enter your City:</label>
+        <input type="text" id="city" placeholder="Enter your City" required><br><br>
+
+        <label for="state">Select your State:</label>
+        <select id="state" required>
+            <option value="">Select your State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        </select><br><br>
+
+            <label for="pin" >Enter your Pin Code:</label>
+            <input type="number" id="pin" placeholder="Enter your Pin Code" required min="100000" max="999999"><br><br>
+
+            <label for="country">Select your Country:</label>
+            <select id="country" required>
+                <option value="">Select your Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <!-- Add more countries as needed -->
+            </select></fieldset><br><br>
+<fieldset>            
+            <legend><h2>Academic Information</h2></legend>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <th>Qualification</th>
+                    <th>10th</th>
+                    <th>12th</th>
+                    <th>Graduation</th>
+                    <th>Post Graduation</th> 
+                </tr>
+                <tr>
+                    <th>Board/University</th>
+                    <td><input type="text" placeholder="Enter Board/University"></td>
+                    <td><input type="text" placeholder="Enter Board/University"></td>
+                    <td><input type="text" placeholder="Enter Board/University"></td>
+                    <td><input type="text" placeholder="Enter Board/University"></td>
+                </tr>
+                <tr>
+                    <th>Year of Passing</th>
+                    <td><input type="number" placeholder="Enter Year of Passing"></td>
+                    <td><input type="number" placeholder="Enter Year of Passing"></td>
+                    <td><input type="number" placeholder="Enter Year of Passing"></td>
+                    <td><input type="number" placeholder="Enter Year of Passing"></td>
+                </tr>
+                <tr>
+                    <th>Percentage/CGPA</th>
+                    <td><input type="number" placeholder="Enter Percentage/CGPA" step="0.01" min="0" max="100"></td>
+                    <td><input type="number" placeholder="Enter Percentage/CGPA" step="0.01" min="0" max="100"></td>
+                    <td><input type="number" placeholder="Enter Percentage/CGPA" step="0.01" min="0" max="100"></td>
+                    <td><input type="number" placeholder="Enter Percentage/CGPA" step="0.01" min="0" max="100"></td>
+                </tr>
+                <tr>
+                    <th>Upload Marksheet</th>
+                    <td><input type="file" accept=".pdf,.jpg,.png"></td>
+                    <td><input type="file" accept=".pdf,.jpg,.png"></td>
+                    <td><input type="file" accept=".pdf,.jpg,.png"></td>
+                    <td><input type="file" accept=".pdf,.jpg,.png"></td>
+                </tr>
+            </table></fieldset><br><br>
+
+            <fieldset>
+                <legend><h2>Technical Skills</h2></legend>
+                <label for="skills">Select your Technical Skills:</label><br>
+                    <input type="checkbox" id="html" value="HTML">
+                    <label for="html">HTML</label><br>
+                    <input type="checkbox" id="css" value="CSS">
+                    <label for="css">CSS</label><br>
+                <input type="checkbox" id="javascript" value="JavaScript">
+                <label for="javascript">JavaScript</label><br>
+                <input type="checkbox" id="bootstrap" value="Bootstrap">
+                <label for="bootstrap">Bootstrap</label><br>
+                <input type="checkbox" id="tailwind" value="Tailwind CSS">
+                <label for="tailwind">Tailwind CSS</label><br>
+                <input type="checkbox" id="react" value="React">
+                <label for="react">React</label><br>
+                <input type="checkbox" id="angular" value="Angular">
+                <label for="angular">Angular</label><br>
+                <input type="checkbox" id="vue" value="Vue.js">
+                <label for="vue">Vue.js</label><br>
+                <input type="checkbox" id="node" value="Node.js">
+                <label for="node">Node.js</label><br>
+                <input type="checkbox" id="express" value="Express.js">
+                <label for="express">Express.js</label><br>
+                <input type="checkbox" id="mongodb" value="MongoDB">
+                <label for="mongodb">MongoDB</label><br>
+                <input type="checkbox" id="mysql" value="MySQL">
+                <label for="mysql">MySQL</label><br>
+                <input type="checkbox" id="postgresql" value="PostgreSQL">
+                <label for="postgresql">PostgreSQL</label><br>
+                <input type="checkbox" id="git" value="Git">
+                <label for="git">Git</label><br>
+                <input type="checkbox" id="github" value="GitHub">
+                <label for="github">GitHub</label><br>
+                <input type="checkbox" id="docker" value="Docker">
+                <label for="docker">Docker</label></fieldset><br><br>
+
+                <fieldset>
+                    <legend><h2>Programming Languages</h2></legend>
+                    <label for="languages">Select your Programming Languages:</label><br>
+                    <input type="checkbox" id="c" value="C">
+                    <label for="c">C</label><br>
+                    <input type="checkbox" id="cpp" value="C++">
+                    <label for="cpp">C++</label><br>
+                    <input type="checkbox" id="python" value="Python">
+                    <label for="python">Python</label><br>
+                    <input type="checkbox" id="java" value="Java">
+                    <label for="java">Java</label><br>
+                    <input type="checkbox" id="javascript" value="JavaScript">
+                <label for="javascript">JavaScript</label><br>
+                <input type="checkbox" id="PHP" value="PHP">
+                <label for="PHP">PHP</label><br>
+                <input type="checkbox" id="C#" value="C#">
+                <label for="C#">C#</label></fieldset><br><br>
+
+                <fieldset>
+                    <legend><h2>Experience Details</h2></legend>
+                    <label for="experience">Do you have any prior work experience?</label><br>
+                    <input type="radio" id="yes" name="experience" value="yes" required>
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" id="no" name="experience" value="no" required>
+                    <label for="no">No</label><br><br>
+                
+
+                <label for="company">Current Company:</label>
+                <input type="text" id="company" placeholder="Enter your current company"><br><br>  
+
+
+                <label for="Designation">Designation:</label>
+                <input type="text" id="Designation" placeholder="Enter your designation"><br><br>
+
+                <label for="Total">Total Experience (in years):</label>
+                <input type="number" id="Total" placeholder="Enter your total experience" step="0.1" min="0"><br><br>
+
+                <label for="salary2">Current Salary:</label>
+                <input type="number" id="salary2" placeholder="Enter your current salary" step="0.01" min="0"><br><br>
+
+                <label for="Salary">Expected Salary:</label>
+                <input type="number" id="Salary" placeholder="Enter your expected salary" step="0.01" min="0"><br><br>
+
+                <label for="notice">Notice Period (in days):</label>
+                <input type="number" id="notice" placeholder="Enter your notice period" min="0"></fieldset><br><br>
+<fieldset>
+                <legend><h2>Preferred Job Location</h2></legend>
+                <label for="location">Select your Preferred Job Location:</label>
+                <select id="location" required>
+                    <option value="">Select your Preferred Job Location</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Gurgaon">Gurgaon</option>
+                    <option value="Noida">Noida</option>
+                </select></fieldset><br><br>
+<fieldset>
+                <legend><h2>Upload Documents</h2></legend>
+                <label for="resume">Upload your Resume:</label>
+                <input type="file" id="resume" accept=".pdf,.doc,.docx" required><br><br>
+                <label for="photo">Upload your Passport Photo:</label>
+                <input type="file" id="photo" accept=".jpg,.jpeg,.png" required><br><br>
+                <label for="aadhar">Upload your Aadhaar Card:</label>
+                <input type="file" id="aadhar" accept=".pdf,.jpg,.jpeg,.png" required><br><br>
+                <label for="pan">Upload your PAN Card:</label>
+                <input type="file" id="pan" accept=".pdf,.jpg,.jpeg,.png" required><br><br>
+                <label for="experience">Upload your Experience Letter (if any):</label>
+                <input type="file" id="experience" accept=".pdf,.jpg,.jpeg,.png"><br><br>
+                <label for="slip">Upload your Latest Salary Slip (if any):</label>
+                <input type="file" id="slip" accept=".pdf,.jpg,.jpeg,.png"></fieldset><br><br>
+<fieldset>
+                <legend><h2>Availability</h2></legend>
+                <label for="availability">Enter your Availability Date:</label>
+                <input type="date" id="availability" placeholder="Enter your availability date"><br><br>
+                <label for="availability_time">Enter your Availability Time:</label>
+                <input type="time" id="availability_time" placeholder="Enter your availability time"><br><br>
+                <label for="availability_week">Enter your Availability Week:</label>
+                <input type="week" id="availability_week" placeholder="Enter your availability week"><br><br>
+                <label for="availability_month">Enter your Availability Month:</label>
+                <input type="month" id="availability_month" placeholder="Enter your availability month"><br><br>
+                <label for="availability_datetime">Enter your Availability Date and Time:</label>   
+                <input type="datetime-local" id="availability_datetime" placeholder="Enter your availability date and time"></fieldset><br><br>
+<fieldset>
+                <legend><h2>Social Media Links</h2></legend>
+                <label for="linkedin">LinkedIn:</label>
+                <input type="url" id="linkedin" placeholder="Enter your LinkedIn profile URL"><br><br>
+                <label for="github">GitHub:</label>
+                <input type="url" id="github" placeholder="Enter your GitHub profile URL"><br><br>
+                <label for="portfolio">Portfolio:</label>
+                <input type="url" id="portfolio" placeholder="Enter your portfolio URL"><br><br>
+                <label for="personal">Personal Website:</label>
+                <input type="url" id="personal" placeholder="Enter your personal website URL"></fieldset><br><br>
+
+                <fieldset>
+                    <legend><h2>Preferences</h2></legend>
+                    <label for="color">Favorite Color:</label>
+                    <input type="color" id="color" placeholder="Select your favorite color"><br><br>
+
+                <label for="joining">Expected Joining Month:</label>
+                <input type="month" id="joining" placeholder="Enter your expected joining month"><br><br>
+
+                <label for="satisfaction">Comfortable with Relocation:</label>
+                <input type="range" id="satisfaction" name="satisfaction" min="1" max="10"><br><br>
+
+                <label for="mode">Preferred Mode of Work:</label>
+                <select id="mode">
+                    <option value="onsite">On-site</option>
+                    <option value="remote">Remote</option>
+                    <option value="hybrid">Hybrid</option>
+                </select></fieldset><br><br>
+
+                <fieldset>
+                    <legend><h2>Security</h2></legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Enter your username"><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password"><br><br>
+                    <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" placeholder="Confirm your password"><br><br>
+                <label for="security_question">Security Question:</label>
+                <select id="security_question">
+                    <option value="">Select a security question</option>
+                    <option value="pet">What is your pet's name?</option>
+                    <option value="school">What is the name of your first school?</option>
+                    <option value="city">In which city were you born?</option>
+                </select><br><br>
+                <label for="security_answer">Security Answer:</label>
+                <input type="text" id="security_answer" placeholder="Enter your security answer"></fieldset><br><br>
+<fieldset>
+                <legend><h2>Declaration</h2></legend>
+                <input type="checkbox" id="declaration" required>
+                <label for="declaration">I hereby declare that the information provided is true and correct to the best of my knowledge.</label><br><br>
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I agree to the terms and conditions.</label><br><br>
+                <input type="checkbox" id="policy" required>
+                <label for="policy">I have read and understood the privacy policy.</label></fieldset><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+                <button type="draft">Save as Draft</button>
+                <button type="cancel">Cancel</button>
+    </form>
+</body>
+</html>
